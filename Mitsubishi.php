@@ -15,7 +15,7 @@ class Mitsubishi extends Mobil implements Mekanik
 {
     public function __construct($tipe) // constructor merupakan sebuah method khusus atau magic method fungsi method ini untuk mempersimpel program 
     {
-        $this->merk = get_class($this);
+        $this->merk = get_class($this);// fungsi get_class yaitu untuk mengambil nilai/value merk
         $this->tipe = $tipe; // untuk method hampir sama dengan menuliskan nama variabelnya untuk menampung objek kemudian gunakan tanda (->)
     }
 
